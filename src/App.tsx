@@ -580,7 +580,7 @@ function ThyroidSection() {
                 margin: '0 0 8px',
                 letterSpacing: '-0.01em',
               }}>
-                Kepentingan Pemeriksaan Awal
+                Kepentingan Pemeriksaan Awal Doktor
               </h4>
               <p style={{
                 fontFamily: F.sans,
@@ -590,7 +590,7 @@ function ThyroidSection() {
                 margin: 0,
                 maxWidth: 520,
               }}>
-                Masalah tiroid sering tidak disedari kerana simptomnya menyerupai keletihan biasa. Dapatkan nasihat dan pemeriksaan segera jika anda mengalami simptom-simptom di atas. Pengesanan awal adalah kunci kepada pemulihan yang lebih cepat.
+                Masalah tiroid sering tidak disedari kerana simptomnya menyerupai keletihan biasa. Dapatkan nasihat doktor dan pemeriksaan segera jika anda mengalami simptom-simptom di atas. Pengesanan awal adalah kunci kepada pemulihan yang lebih cepat.
               </p>
             </div>
           </div>
