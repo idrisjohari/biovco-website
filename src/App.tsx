@@ -302,7 +302,7 @@ function DividerStrip() {
           </span>
         ))}
       </div>
-      <style>{`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-33.33%)}}`}</style>
+      <style>{`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-99.99%)}}`}</style>
     </div>
   )
 }
