@@ -324,7 +324,7 @@ const THYROID_COMPARE = [
     color: '#2A6AB8',
     bg: 'rgba(42,106,184,0.07)',
     border: 'rgba(42,106,184,0.18)',
-    icon: '🔽',
+    icon: ' ',
     points: [
       'Mudah penat sepanjang masa',
       'Berat badan naik tanpa sebab',
@@ -339,7 +339,7 @@ const THYROID_COMPARE = [
     color: '#B84D0A',
     bg: 'rgba(184,77,10,0.07)',
     border: 'rgba(184,77,10,0.18)',
-    icon: '🔼',
+    icon: ' ',
     points: [
       'Jantung berdegup terlalu laju',
       'Berat badan turun mendadak',
@@ -570,7 +570,7 @@ function ThyroidSection() {
           transition: 'opacity 0.7s ease 0.25s, transform 0.7s ease 0.25s',
         }}>
           <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start' }}>
-            <span style={{ fontSize: 28, flexShrink: 0 }}>🩺</span>
+            <span style={{ fontSize: 28, flexShrink: 0 }}> </span>
             <div>
               <h4 style={{
                 fontFamily: F.serif,
