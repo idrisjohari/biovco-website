@@ -307,6 +307,7 @@ function DividerStrip() {
   )
 }
 
+
 // ─── Thyroid Section ──────────────────────────────────────────────────────
 const THYROID_SYMPTOMS = [
   { icon: ' ', label: 'Cepat penat walaupun cukup rehat' },
