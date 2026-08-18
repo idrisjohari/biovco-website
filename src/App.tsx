@@ -288,10 +288,24 @@ function DividerStrip() {
         gap: 48,
         animation: 'ticker 22s linear infinite',
         whiteSpace: 'nowrap',
-      }}
+      }}>
+        {['Tiroid', 'Resdung', 'Tonsil', 'Kolesterol', 'Psoriasis', 'Kencing Manis', 'Sembelit', 'Tekanan Darah Tinggi', 'Migrain', 'Berat Badan'].flatMap(t => [t, t, t]).map((t, i) => (
+          <span key={i} style={{
+            fontFamily: F.sans,
+            fontSize: 11,
+            fontWeight: 500,
+            letterSpacing: '0.12em',
+            color: 'rgba(255,255,255,0.45)',
+            flexShrink: 0,
+          }}>
+            <span style={{ color: C.orange, marginRight: 18 }}>·</span>{t.toUpperCase()}
+          </span>
+        ))}
+      </div>
+      <style>{`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-33.33%)}}`}</style>
+    </div>
   )
 }
-
 
 // ─── Thyroid Section ──────────────────────────────────────────────────────
 const THYROID_SYMPTOMS = [
