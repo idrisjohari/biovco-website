@@ -289,7 +289,7 @@ function DividerStrip() {
         animation: 'ticker 22s linear infinite',
         whiteSpace: 'nowrap',
       }}>
-        {['Tiroid', 'Resdung', 'Tonsil', 'Kolesterol', 'Psoriasis', 'Kencing Manis', 'Sembelit', 'Tekanan Darah Tinggi', 'Migrain', 'Berat Badan'].map((t, i) => (
+        {['Tiroid', 'Resdung', 'Tonsil', 'Kolesterol', 'Psoriasis', 'Kencing Manis', 'Sembelit', 'Tekanan Darah Tinggi', 'Migrain', 'Berat Badan'].flatMap(t => [t, t, t]).map((t, i) => (
           <span key={i} style={{
             fontFamily: F.sans,
             fontSize: 11,
@@ -302,7 +302,7 @@ function DividerStrip() {
           </span>
         ))}
       </div>
-      <style>{`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-99.99%)}}`}</style>
+      <style>{`@keyframes ticker{0%{transform:translateX(0)}100%{transform:translateX(-33.33%)}}`}</style>
     </div>
   )
 }
