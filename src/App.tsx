@@ -298,7 +298,7 @@ function DividerStrip() {
             color: 'rgba(255,255,255,0.45)',
             flexShrink: 0,
           }}>
-            <span style={{ color: C.orange, marginRight: 18 }}> </span>{t.toUpperCase()}
+            {t.toUpperCase()}
           </span>
         ))}
       </div>
