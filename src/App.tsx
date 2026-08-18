@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import bottleImg from '@/imports/bottle.jpg'
+import bottleImg from '@/imports/bottlebiovco.png'
 import logoImg from '@/imports/logo.png'
 
 // ─── Tokens ───────────────────────────────────────────────────────────────
